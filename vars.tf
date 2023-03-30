@@ -10,3 +10,5 @@ variable "backup_retention_period" {}
 variable "preferred_backup_window" {}
 variable "instance_class" {}
 variable "no_of_instances" {}
+variable "vpc_id" {}
+variable "allow_subnets" {}
